@@ -56,10 +56,7 @@ describe('lint', function(){
             assert.fail('Prettified content was blank')
 
           // should match a cleaned version
-          if(content != `.text
-{
-  color: black;
-}`) 
+          if(content.replace(/\s+/gi, '') != '.text{color: black;}'.replace(/\s+/gi, '')) 
             assert.fail('Did not clean the content correctly.');
 
           // done
