@@ -1,0 +1,236 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-05-13T17:02:40.489Z",
+        "id": "page_1",
+        "title": "http://example.com/",
+        "pageTimings": {
+          "onContentLoad": 4439.652000000933,
+          "onLoad": 10251.59800000256
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-05-13T17:02:40.727Z",
+        "time": 145.68099999451078,
+        "request": {
+          "method": "GET",
+          "url": "http://example.com/wp-content/themes/hyd-2/style.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "example.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,af;q=0.6,it;q=0.4,tr;q=0.2,sw;q=0.2,fr;q=0.2,cs;q=0.2"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "http://example.com/"
+            },
+            {
+              "name": "Cookie",
+              "value": "__utma=163301541.1994479288.1436675588.1443198717.1443786585.13; __insp_slim=1443786589396; __insp_wid=2552047777; __insp_nv=true; __insp_ref=d; __insp_targlpu=http%3A%2F%2Fexample.com%2F; __insp_targlpt=Huisgenoot; __insp_norec_sess=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "__utma",
+              "value": "163301541.1994479288.1436675588.1443198717.1443786585.13",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_slim",
+              "value": "1443786589396",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_wid",
+              "value": "2552047777",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_nv",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_ref",
+              "value": "d",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_targlpu",
+              "value": "http%3A%2F%2Fexample.com%2F",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_targlpt",
+              "value": "Huisgenoot",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__insp_norec_sess",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 711,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Fri, 13 May 2016 17:02:38 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Age",
+              "value": "349493"
+            },
+            {
+              "name": "X-Cache",
+              "value": "HIT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "22159"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 09 Feb 2016 09:27:13 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56b9b0f1-181a8\""
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "X-Varnish",
+              "value": "583052863 563673799"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 varnish"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 31 Dec 2037 23:55:55 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 98728,
+            "mimeType": "text/css",
+            "compression": 76569,
+            "body": ".test { \n color: black !important; \n \n} \n\n\n\n .bla { color: red !important; }"
+          },
+          "redirectURL": "",
+          "headersSize": 506,
+          "bodySize": 22159,
+          "_transferSize": 22665
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 26.8539999960922,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.11700001778079994,
+          "wait": 46.86999999103131,
+          "receive": 71.83999998960648,
+          "ssl": -1
+        },
+        "connection": "794498",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}

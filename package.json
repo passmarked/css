@@ -1,0 +1,50 @@
+{
+  "name": "@passmarked/css",
+  "version": "1.0.0",
+  "description": "Rules related to checking the compatability of the CSS on the page ensuring the stylesheet works on older browsers too",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha"
+  },
+  "author": "Passmarked <devops@passmarked.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:passmarked/css.git"
+  },
+  "keywords": [
+    "css",
+    "passmarked",
+    "passmark",
+    "security",
+    "standards",
+    "test",
+    "suite",
+    "yslow",
+    "pagespeed",
+    "lint",
+    "validate",
+    "best",
+    "practice"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^0.9.0",
+    "blocked": "^1.1.0",
+    "cheerio": "^0.19.0",
+    "cssbeautify": "^0.3.1",
+    "csslint": "^0.10.0",
+    "js-beautify": "^1.5.10",
+    "node-uuid": "^1.4.3",
+    "request": "^2.69.0",
+    "passmarked": "*",
+    "string": "^3.1.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "coffeelint": "^1.9.2",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  }
+}
