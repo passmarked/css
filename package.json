@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/css",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Rules related to checking the compatability of the CSS on the page ensuring the stylesheet works on older browsers too",
   "main": "index.js",
   "scripts": {
