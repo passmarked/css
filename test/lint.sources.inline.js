@@ -18,7 +18,43 @@ describe('lint', function(){
           url: 'http://example.com'
           
         },
-        {},
+        {
+
+          log: {
+
+            entries: [
+
+              {
+
+                request:  {},
+                response: {
+
+                  status: 200,
+                  headers: [
+
+                    {
+
+                      name: 'content-type',
+                      value:  'text/html'
+
+                    }
+
+                  ],
+                  content: {
+
+                    text: fs.readFileSync('./samples/lint.sources.inline.multiple.html').toString()
+
+                  }
+
+                }
+
+              }
+
+            ]
+
+          }
+
+        },
         fs.readFileSync('./samples/lint.sources.inline.multiple.html').toString());
 
       // handle the stream
@@ -64,7 +100,43 @@ describe('lint', function(){
           url: 'http://example.com'
 
         },
-        {},
+        {
+
+          log: {
+
+            entries: [
+
+              {
+
+                request:  {},
+                response: {
+
+                  status: 200,
+                  headers: [
+
+                    {
+
+                      name: 'content-type',
+                      value:  'text/html'
+
+                    }
+
+                  ],
+                  content: {
+
+                    text: fs.readFileSync('./samples/lint.sources.inline.type.html').toString()
+
+                  }
+
+                }
+
+              }
+
+            ]
+
+          }
+
+        },
         fs.readFileSync('./samples/lint.sources.inline.type.html').toString());
 
       // handle the stream
@@ -110,7 +182,43 @@ describe('lint', function(){
           url: 'http://example.com'
 
         },
-        {},
+        {
+
+          log: {
+
+            entries: [
+
+              {
+
+                request:  {},
+                response: {
+
+                  status: 200,
+                  headers: [
+
+                    {
+
+                      name: 'content-type',
+                      value:  'text/html'
+
+                    }
+
+                  ],
+                  content: {
+
+                    text: fs.readFileSync('./samples/lint.sources.inline.none.html').toString()
+
+                  }
+
+                }
+
+              }
+
+            ]
+
+          }
+
+        },
         fs.readFileSync('./samples/lint.sources.inline.none.html').toString());
 
       // handle the stream
@@ -143,7 +251,43 @@ describe('lint', function(){
           url: 'http://example.com'
             
         },
-        {},
+        {
+
+          log: {
+
+            entries: [
+
+              {
+
+                request:  {},
+                response: {
+
+                  status: 200,
+                  headers: [
+
+                    {
+
+                      name: 'content-type',
+                      value:  'text/html'
+
+                    }
+
+                  ],
+                  content: {
+
+                    text: fs.readFileSync('./samples/lint.sources.inline.html').toString()
+
+                  }
+
+                }
+
+              }
+
+            ]
+
+          }
+
+        },
         fs.readFileSync('./samples/lint.sources.inline.html').toString());
 
       // handle the stream

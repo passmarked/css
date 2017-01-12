@@ -18,6 +18,31 @@
     ],
     "entries": [
       {
+
+        "request":  {},
+        "response": {
+
+          "status": 200,
+          "headers": [
+
+            {
+
+              "name": "content-type",
+              "value":  "text/html"
+
+            }
+
+          ],
+          "content": {
+
+            "text": ""
+
+          }
+
+        }
+
+      },
+      {
         "startedDateTime": "2016-05-13T17:02:40.727Z",
         "time": 145.68099999451078,
         "request": {
@@ -211,7 +236,7 @@
             "size": 98728,
             "mimeType": "text/css",
             "compression": 76569,
-            "body": ".test { \n color: black !important; \n \n}"
+            "text": ".test { \n color: black !important; \n \n}"
           },
           "redirectURL": "",
           "headersSize": 506,
