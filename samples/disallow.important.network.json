@@ -211,7 +211,7 @@
             "size": 98728,
             "mimeType": "text/css",
             "compression": 76569,
-            "body": ".test { \n color: black !important; \n \n}"
+            "text": ".test { \n color: black !important; \n \n}"
           },
           "redirectURL": "",
           "headersSize": 506,

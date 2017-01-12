@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/css",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Rules related to checking the compatability of the CSS on the page ensuring the stylesheet works on older browsers too",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "blocked": "^1.1.0",
     "cheerio": "^0.19.0",
     "cssbeautify": "^0.3.1",
-    "csslint": "^1.0.4",
+    "csslint": "^1.0.5",
     "js-beautify": "^1.5.10",
     "node-uuid": "^1.4.3",
     "request": "^2.69.0",
