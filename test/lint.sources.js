@@ -11,6 +11,10 @@ describe('lint', function(){
 
     it('Should return one "inline" and "asset" entry', function(done){
 
+      var har = require('../samples/lint.sources.json');
+      har.log.entries[0].response.url = 'https://example.com';
+      har.log.entries[0].response.content.text = fs.readFileSync('./samples/lint.sources.html').toString();
+
       // create a dummy payload
       var payload = passmarked.createPayload(
         {
@@ -18,7 +22,7 @@ describe('lint', function(){
           url: 'http://example.com'
           
         },
-        require('../samples/lint.sources.json'),
+        har,
         fs.readFileSync('./samples/lint.sources.html').toString());
 
       // handle the stream
