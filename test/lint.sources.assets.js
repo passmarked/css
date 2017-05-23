@@ -62,7 +62,7 @@ describe('lint', function(){
     });
 
 
-    it('Should mark a entry as external if on another domain', function(done){
+    it('Should not return a entry if it was an external css file', function(done){
 
       // create a dummy payload
       var payload = passmarked.createPayload(
@@ -83,29 +83,8 @@ describe('lint', function(){
           assert.fail('Returned entries was null or undefined');
 
         // check if we got any rules back ...
-        if(entries.length != 1)
-          assert.fail('Was expecting 1 entries to be returned, got ' + entries.length);
-
-        // loop all the results and must be asset
-        for(var i = 0; i < entries.length; i++) {
-
-          // check if asset
-          if(entries[i].source != 'asset') {
-
-            // fail
-            assert.fail('Returned entry was not a "asset" type');
-
-          }
-
-          // check if asset
-          if(entries[i].external == false) {
-
-            // fail
-            assert.fail('Returned entry should be marked as external');
-
-          }
-
-        } 
+        if(entries.length != 0)
+          assert.fail('Was expecting 0 entries to be returned, got ' + entries.length);
 
         // done
         done();
